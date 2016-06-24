@@ -1,13 +1,13 @@
 {
-  "name": "hello-dapp",
+  "name": "asch-dapps-sdk",
   "version": "1.0.0",
-  "description": "A hello world dapp",
-  "repository": "git@github.com:LiskHQ/lisk-dapps-sdk.git",
+  "description": "Official SDK for the Asch decentralized application platform",
+  "repository": "https://github.com/sqfasd/asch-cli.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Boris Povod <boris@crypti.me>,Pavel Nekrasov <landgraf.paul@gmail.com>",
+  "author": "Qingfeng Shan <sqf1225@foxmail.com>",
   "license": "MIT",
   "dependencies": {
     "async": "^1.5.2",
@@ -17,8 +17,8 @@
     "crypto-browserify": "*",
     "extend": "^3.0.0",
     "ip": "*",
-    "js-nacl": "^0.6.0",
-    "json-loader": "https://github.com/LiskHQ/json-loader/tarball/master",
-    "z-schema": "https://github.com/LiskHQ/z-schema/tarball/master"
+    "js-nacl": "https://github.com/sqfasd/js-nacl/tarball/master",
+    "json-loader": "https://github.com/sqfasd/json-loader/tarball/master",
+    "z-schema": "https://github.com/sqfasd/z-schema/tarball/master"
   }
 }
